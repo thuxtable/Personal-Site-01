@@ -1,0 +1,241 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	color: white;
+	letter-spacing: 2px;
+	text-align: center;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+/* Basic Pages */
+
+.page {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+.page:before,
+.page:after {
+    content: "";
+    display: table;
+}
+
+.page:after {
+    clear: both;
+}
+
+.pagecontent {
+	max-width: 1024px;
+	margin: 0 auto;
+	border: 1px solid yellow;
+	box-sizing:border-box;
+}
+
+.halfcontent {
+	display: inline;
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+#top {
+	min-height: 100%;
+	background: white;
+	border: 1px solid red;
+	box-sizing:border-box;
+}
+
+#about {
+	background: #A8A8A8 ;
+	border: 1px solid blue;
+	box-sizing:border-box;
+}
+
+#uclamap {
+	height: 45%;
+	border: 1px solid green;
+	box-sizing:border-box;
+}
+
+#social {
+	background: #484848;
+	border: 1px solid yellow;
+	box-sizing:border-box;
+}
+
+#contact {
+	float: left;
+	width: 100%;
+	background: #181818;
+	border: 1px solid red;
+	box-sizing:border-box;
+}
+
+#footer {
+	color: #CCCCCC;
+	background: black;
+	font-size: 75%;
+	border: 1px solid orange;
+	box-sizing:border-box;
+}
+
+/* Nav */
+
+nav {
+	position: fixed;
+	background: white;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	z-index: 2;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+nav a {
+	color: black;
+	padding: 15px;
+}
+
+/* Intro */
+
+.intro {
+	margin: 50px;
+}
+
+#introimg {
+	max-width: 1024px;
+	position: relative;
+	margin-top: 250px;
+	min-width: 300px;
+}
+
+#intro1 {color: #C0C0C0;}
+#intro2 {color: grey;}
+#intro3 {color: black;}
+
+#downarrow {
+	position: fixed;
+    z-index: 10;
+	bottom: 0px;
+	left: 0px;
+	margin: 40px;
+}
+
+/* About */
+
+#portrait {
+	height: 400px;
+}
+
+#aboutbrief {
+	height: 400px;
+}
+
+/* Social Media */
+
+.social {
+	height: 600px;
+	text-align: center;
+}
+
+#twitter-api {
+}
+
+#twitter-img {
+}
+
+#linkedin-api {
+}
+
+#linkedin-img {
+}
+
+#github-api {
+}
+
+#github-img {
+}
+
+#facebook-api {
+}
+
+#facebook-img {
+}
+
+h1, h2, h3 {font-weight: 400;}
+
+h1 {
+	font-size: 2em;
+	margin-top: 50px;
+	padding: 30px;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-style: italic;
+	padding: 30px;
+}
+
+h3 { 
+   font-size: 3em; 
+}
+
+p {
+	margin: 1em;
+	line-height: 1.2em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+em {
+	font-style: italic;
+}
+
+pre {
+	display: inline-block;
+	padding: 20px;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+/* Twitter Feed */
+
+.twitter-timeline
+{
+	height: 400px;
+	margin: 20px;
+}
+
+.iconbar{
+	background: white;
+}
+
+.iconbar a{
+	display: inline;
+}
+
+.iconbar img{
+	width: 60px;
+	height: 60px;
+}
+
+#fblogo img:hover {
+	background: #4747CC;
+}
+
+#inlogo img:hover {
+	background: #335C85;
+}
+
+#instalogo img:hover {
+	background: #B56C47;
+}
