@@ -44,6 +44,13 @@ html, body {
 	text-align: left;
 }
 
+.quote {
+	float: right;
+	width: 30%;
+	border: 1px solid purple;
+	box-sizing:border-box;
+}
+
 #top {
 	min-height: 100%;
 	background: white;

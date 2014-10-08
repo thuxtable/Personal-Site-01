@@ -1,14 +1,15 @@
-To-dos 10/8/14:
+To-dos for 10/8/14:
 
-Create better signature png for title page
+O Create better signature png for title page
 
-Ensure #s work for different pages
+O Finish new favicon and add
 
-Get new photograph
+X Ensure #s work for different pages
 
-Narrow down quotes I like and want to keep
+O Get new portrait photo
 
-Put quotes in aside sections so other text wraps around them
+O Narrow down quotes I like and want to keep
 
-Contact form
+O Put quotes in aside sections so other text wraps around them
 
+O Input contact form
