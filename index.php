@@ -45,7 +45,7 @@ Tyler Huxtable
 	</nav>
 
 	<div class="intro" id="downarrow">
-		<a href="#about"><img src="images/downarrow.png" /></a>
+		<a href="#about"><img src="images/down-arrow-icon.png" /></a>
 	</div>
 
 	<div class="page" id="top">
@@ -59,21 +59,31 @@ Tyler Huxtable
 
 	<div class="page" id="about">
 		<h1>About</h1>
+		<h2>"Welcome! Bienvenue! Halló!"</h2>
 		<div class="pagecontent">
 			<div class="halfcontent" id="portrait">
 				<img src="images/portrait.jpg" />
 			</div>
 			<div class="halfcontent" id="aboutbrief">
+				<h3>Tyler Huxtable</h3>
 				<ul>
-					<li>Tyler Huxtable</li>
+					<li> Seattle-born</li>
+						<ul>
+							<li>Rain-lover</li>
+							<li>Literary name-dropper</li>
+						</ul>
 					<li>UCLA | Class of 2013</li>
-					<li>Writer</li>
-					<li>Linguist</li>
-					<li>Code Enthusiast</li>
+						<ul>
+							<li>English BA</li>
+							<li>Linguistics BA</li>
+								<ul>
+									<li>Specialization in Computing</li>
+								</ul>
+						</ul>
 				</ul>
 			</div>
 
-			<p>P1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+			<p>Welcome! P1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 				<div class="quote">
 					<p>
 						"Beyond the shadow of the ship,
@@ -114,48 +124,55 @@ Tyler Huxtable
 				<a id="instalogo" href="http://instagram.com/awshux_thux"><img src="images/insta_icon.png" /></a>
 			</div>
 			
-			<div class="halfcontent social" id="twitter-api">
+			<div class="halfcontent social" id="twitter">
 				<h3>Twitter</h3>
 				<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/tyler_huxtable" data-widget-id="510840783432216576">Tweets by @tyler_huxtable</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</div>
-			<div class="halfcontent social" id="twitter-img">
-			</div>
-			<div class="halfcontent social" id="linkedin-api">
-			</div>
-			<div class="halfcontent social" id="linkedin-img">
+			<div class="halfcontent social" id="linkedin">
 				<h3>LinkedIn</h3>
-				<script type="text/javascript" src="http://platform.linkedin.com/in.js">
-					api_key: 75jxfslmlju4ls
-				</script>
-				<p><script type="IN/MemberProfile" data-id="www.linkedin.com/pub/tyler-huxtable/69/413/aa1/" data-related="false" data-format="inline"></script></p>
 			</div>
-			<div class="halfcontent social" id="github-api">
+			<div class="halfcontent social" id="github">
 				<h3>GitHub</h3>
 			</div>
-			<div class="halfcontent social" id="github-img">
-			</div>
-			<div class="halfcontent social" id="facebook-api">
-			</div>
-			<div class="halfcontent social" id="facebook-img">
+			<div class="halfcontent social" id="facebook">
 				<h3>Facebook</h3>
 			</div>
 			
 		</div>
 	</div>
 
+	<div class="page" id="banner"><img src="images/banner.jpg" /></div>
+	
 	<div class="page" id="contact">
 		<h1>Contact</h1>
-		<h2>"The dead could only speak through the mouths of those left behind, and through the signs they left scattered behind them."</h2>
+		<h2>"Don't be shy!"</h2>
 		<div class="pagecontent">
-			<div class="halfcontent">
+			<div class="halfcontent" id="contactmethods">
 				<ul>
-					<li>Email | tyler.huxtable[at]gmail.com</li>
-					<li>Tel | 253.334.3119</i>
-					<li>Form Inquiry Here</i>
+					<li><img src="images/mail-icon.png" />
+					<li class="contacttitle">email</li>
+					<li class="contactbody">tyler.huxtable[at]gmail.com</li>
+					<li><img src="images/phone-icon.png" />
+					<li class="contacttitle">tel</li>
+					<li class="contactbody">253.334.3119</i>
 				</ul>
 			</div>
-		</div>
+			<div class="halfcontent">
+				<h3>Send me a message!</h3>
+				<form action="#" method="post">
+					<p>First Name:</p>
+					<input type="text" name="firstname">
+					<p>Last Name</p><input type="text" name="lastname">
+					<p>Email</p>
+					<input type="text" name="email" maxlength="50">
+					<p>Message</p>
+					<textarea id="messageinput" type="text" name="message"></textarea>
+					<input type="submit" value="Send">
+				 </form>
+			</div>
+		 </div>
+		 
 	</div>
 
 	<div class="page" id="footer">
