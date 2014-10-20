@@ -185,32 +185,11 @@ nav a:hover {
 	height: 400px;
 }
 
+#abouttext {
+	text-align: left;
+}
+
 /* Social Media */
-
-.social {
-	height: 600px;
-	text-align: center;
-}
-
-#twitter {
-}
-
-#linkedin {
-}
-
-#github {
-}
-
-#facebook {
-}
-
-/* Twitter Feed */
-
-.twitter-timeline
-{
-	height: 400px;
-	margin: 20px;
-}
 
 .iconbar{
 	background: white;
@@ -221,8 +200,8 @@ nav a:hover {
 }
 
 .iconbar img{
-	width: 60px;
-	height: 60px;
+	width: 100px;
+	height: 100px;
 }
 
 #fblogo img:hover {
@@ -235,6 +214,19 @@ nav a:hover {
 
 #instalogo img:hover {
 	background: #B56C47;
+}
+
+#twitter {
+	width: 600px;
+	min-height: 700px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.twitter-timeline
+{
+	height: 500px;
+	margin: 20px;
 }
 
 /* Contact */

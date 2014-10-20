@@ -24,7 +24,7 @@ Tyler Huxtable
 <head>
     <meta charset="UTF-8" /> 
     <title>Tyler Huxtable</title>
-	<link rel="stylesheet" type="text/css" href="maintstyle.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,900,700,700italic,900italic,300italic,100italic,100' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="http://www.tylerhuxtable.com/favicon.png" type="image/icon">
     <link rel="icon" href="http://www.tylerhuxtable.com/favicon.png" type="image/icon">
@@ -82,33 +82,33 @@ Tyler Huxtable
 						</ul>
 				</ul>
 			</div>
-
-			<p>Welcome! P1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-				<div class="quote">
-					<p>
-						"Beyond the shadow of the ship,
-						I watched the water-snakes:
-						They moved in tracks of shining white,
-						And when they reared, the elfish light
-						Fell off in hoary flakes.
-					</p>
-					<p>
-						Within the shadow of the ship
-						I watched their rich attire:
-						Blue, glossy green, and velvet black,
-						They coiled and swam; and every track
-						Was a flash of golden fire."
-					</p>
-					<p><em>The Rime of the Ancient Mariner</em>, Samuel Taylor Coleridge</p>
-				</div>
-			</p>
-			<p>P2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-			</p>
-			<p>P3 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-			</p>
-			<p>P4 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-			</p>
-			<h1><a href="">Resume</a></h2>
+			<div id="abouttext">
+				<p>Welcome! P1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+					<div class="quote">
+						<p>
+							"Beyond the shadow of the ship,
+							I watched the water-snakes:
+							They moved in tracks of shining white,
+							And when they reared, the elfish light
+							Fell off in hoary flakes.
+						</p>
+						<p>
+							Within the shadow of the ship
+							I watched their rich attire:
+							Blue, glossy green, and velvet black,
+							They coiled and swam; and every track
+							Was a flash of golden fire."
+						</p>
+						<p><em>The Rime of the Ancient Mariner</em>, Samuel Taylor Coleridge</p>
+					</div>
+				</p>
+				<p>P2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				</p>
+				<p>P3 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				</p>
+				<p>P4 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				</p>
+			</div>
 		</div>
 	</div>
 
@@ -124,19 +124,10 @@ Tyler Huxtable
 				<a id="instalogo" href="http://instagram.com/awshux_thux"><img src="images/insta_icon.png" /></a>
 			</div>
 			
-			<div class="halfcontent social" id="twitter">
-				<h3>Twitter</h3>
+			<div id="twitter">
+				<h3>Twitter Feed</h3>
 				<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/tyler_huxtable" data-widget-id="510840783432216576">Tweets by @tyler_huxtable</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-			</div>
-			<div class="halfcontent social" id="linkedin">
-				<h3>LinkedIn</h3>
-			</div>
-			<div class="halfcontent social" id="github">
-				<h3>GitHub</h3>
-			</div>
-			<div class="halfcontent social" id="facebook">
-				<h3>Facebook</h3>
 			</div>
 			
 		</div>
@@ -160,7 +151,7 @@ Tyler Huxtable
 			</div>
 			<div class="halfcontent">
 				<h3>Send me a message!</h3>
-				<form action="#" method="post">
+				<form action="MAILTO:tyler.huxtable@gmail.com" method="post" enctype="text/plain">
 					<p>First Name:</p>
 					<input type="text" name="firstname">
 					<p>Last Name</p><input type="text" name="lastname">
