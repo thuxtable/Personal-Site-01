@@ -31,6 +31,8 @@ Tyler Huxtable
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIpKm8ZgCG9G7Ifsj44vba3bfBZwxnVzQ"></script>
 	<script type="text/javascript" src="map_api.js" />
+	<script src="gen_validatorv4.js" type="text/javascript"></script>
+</head>
 </head>
 
 <body>
@@ -151,16 +153,26 @@ Tyler Huxtable
 			</div>
 			<div class="halfcontent">
 				<h3>Send me a message!</h3>
-				<form action="MAILTO:tyler.huxtable@gmail.com" method="post" enctype="text/plain">
+				<form method="post" name="contact_form" action="contact-form-handler.php">
 					<p>First Name:</p>
 					<input type="text" name="firstname">
-					<p>Last Name</p><input type="text" name="lastname">
+					<p>Last Name</p>
+					<input type="text" name="lastname">
 					<p>Email</p>
 					<input type="text" name="email" maxlength="50">
 					<p>Message</p>
 					<textarea id="messageinput" type="text" name="message"></textarea>
 					<input type="submit" value="Send">
 				 </form>
+				
+				<script language="JavaScript">
+					var frmvalidator  = new Validator("contactform");
+					frmvalidator.addValidation("firstname","req","Please provide your first name");
+					frmvalidator.addValidation("lastname","req","Please provide your last name");
+					frmvalidator.addValidation("email","req","Please provide your email");
+					frmvalidator.addValidation("email","email","Please enter a valid email address");
+				</script>
+				
 			</div>
 		 </div>
 		 
