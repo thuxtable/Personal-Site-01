@@ -61,7 +61,7 @@ Tyler Huxtable
 
 	<div class="page" id="about">
 		<h1>About</h1>
-		<h2>"Welcome! Bienvenue! Halló!"</h2>
+		<h2>"Welcome! Bienvenue! Halló! 歡迎光臨! Willkommen! Nnộ! مرحبا!"</h2>
 		<div class="pagecontent">
 			<div class="halfcontent" id="portrait">
 				<img src="images/portrait.jpg" />
@@ -120,12 +120,17 @@ Tyler Huxtable
 		<h1>Social Media</h1>
 		<h2>"Life is empty without a little failure and lot of laughter..."</h2>
 		<div class="pagecontent">
-			<div class="iconbar">
-				<a id="fblogo" href="https://www.facebook.com/tyler.huxtable"><img src="images/fb_icon.png" /></a>
-				<a id="inlogo" href="https://www.linkedin.com/pub/tyler-huxtable/69/413/aa1"><img src="images/in_icon.png" /></a>
-				<a id="instalogo" href="http://instagram.com/awshux_thux"><img src="images/insta_icon.png" /></a>
+			<div>
+				<div class="iconcontainer">
+					<a id="fblogo" href="https://www.facebook.com/tyler.huxtable"><img src="images/fb_icon.png" /></a>
+				</div>
+				<div class="iconcontainer">
+					<a id="inlogo" href="https://www.linkedin.com/pub/tyler-huxtable/69/413/aa1"><img src="images/in_icon.png" /></a>
+				</div>
+				<div class="iconcontainer">
+					<a id="instalogo" href="http://instagram.com/awshux_thux"><img src="images/insta_icon.png" /></a>
+				</div>
 			</div>
-			
 			<div id="twitter">
 				<h3>Twitter Feed</h3>
 				<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/tyler_huxtable" data-widget-id="510840783432216576">Tweets by @tyler_huxtable</a>
@@ -162,7 +167,7 @@ Tyler Huxtable
 					<input type="text" name="email" maxlength="50">
 					<p>Message</p>
 					<textarea id="messageinput" type="text" name="message"></textarea>
-					<input type="submit" value="Send">
+					<input id="formsend" type="submit" value="Send">
 				 </form>
 				
 				<script language="JavaScript">

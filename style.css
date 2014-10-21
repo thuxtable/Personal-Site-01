@@ -82,11 +82,6 @@ pre {
 	text-align: left;
 }
 
-.quote {
-	float: right;
-	width: 40%;
-}
-
 #top {
 	min-height: 100%;
 	background: white;
@@ -179,29 +174,63 @@ nav a:hover {
 
 #portrait {
 	height: 400px;
+	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border: 1px solid red;
 }
 
 #aboutbrief {
 	height: 400px;
+	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border: 1px solid blue;
 }
 
 #abouttext {
 	text-align: left;
+	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border: 1px solid green;
+}
+
+.quote {
+	float: right;
+	width: 40%;
+	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border: 1px solid yellow;
 }
 
 /* Social Media */
 
-.iconbar{
-	background: white;
-}
-
-.iconbar a{
+.iconcontainer {
 	display: inline;
+	height: 160px;
 }
 
-.iconbar img{
+.iconcontainer img{
 	width: 100px;
 	height: 100px;
+	margin: 20px;
+	border-radius: 0.5em;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+.iconcontainer img:hover {
+	width: 150px;
+	height: 150px;
 }
 
 #fblogo img:hover {
@@ -264,4 +293,22 @@ input[type=submit] {
 	cursor:pointer;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+}
+
+#formsend {
+	background: #EE6363;
+	font: inherit;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 2px black;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+#formsend:hover {
+	background: #F08080;
 }
