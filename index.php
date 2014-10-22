@@ -61,7 +61,7 @@ Tyler Huxtable
 
 	<div class="page" id="about">
 		<h1>About</h1>
-		<h2>"Welcome! Bienvenue! Halló! 歡迎光臨! Willkommen! Nnộ! مرحبا!"</h2>
+		<h2>Welcome! Bienvenue! Halló! 歡迎光臨! Willkommen! Nnộ! أهلاً و سهلاً! Vítáme vás! Bienvenido! ยินดีต้อนรับ!</h2>
 		<div class="pagecontent">
 			<div class="halfcontent" id="portrait">
 				<img src="images/portrait.jpg" />
@@ -88,20 +88,9 @@ Tyler Huxtable
 				<p>Welcome! P1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 					<div class="quote">
 						<p>
-							"Beyond the shadow of the ship,
-							I watched the water-snakes:
-							They moved in tracks of shining white,
-							And when they reared, the elfish light
-							Fell off in hoary flakes.
+							"Words can be like X-rays, if you use them properly–they'll go through anything. You read and you're pierced."
 						</p>
-						<p>
-							Within the shadow of the ship
-							I watched their rich attire:
-							Blue, glossy green, and velvet black,
-							They coiled and swam; and every track
-							Was a flash of golden fire."
-						</p>
-						<p><em>The Rime of the Ancient Mariner</em>, Samuel Taylor Coleridge</p>
+						<p><em>Brave New World</em>, Aldous Huxley</p>
 					</div>
 				</p>
 				<p>P2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -118,7 +107,7 @@ Tyler Huxtable
 
 	<div class="page" id="social">
 		<h1>Social Media</h1>
-		<h2>"Life is empty without a little failure and lot of laughter..."</h2>
+		<h2>"Words can be like X-rays, if you use them properly–they'll go through anything. You read and you're pierced." -Aldous Huxley, Brave New World</h2>
 		<div class="pagecontent">
 			<div>
 				<div class="iconcontainer">
@@ -132,7 +121,7 @@ Tyler Huxtable
 				</div>
 			</div>
 			<div id="twitter">
-				<h3>Twitter Feed</h3>
+				<h3>Twitter</h3>
 				<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/tyler_huxtable" data-widget-id="510840783432216576">Tweets by @tyler_huxtable</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</div>
@@ -145,8 +134,8 @@ Tyler Huxtable
 	<div class="page" id="contact">
 		<h1>Contact</h1>
 		<h2>"Don't be shy!"</h2>
-		<div class="pagecontent">
-			<div class="halfcontent" id="contactmethods">
+		<div class="pagecontent" id="contactwrapper">
+			<div class="halfcontent" id="contactcontainer">
 				<ul>
 					<li><img src="images/mail-icon.png" />
 					<li class="contacttitle">email</li>
@@ -156,7 +145,7 @@ Tyler Huxtable
 					<li class="contactbody">253.334.3119</i>
 				</ul>
 			</div>
-			<div class="halfcontent">
+			<div class="halfcontent" id="contactform">
 				<h3>Send me a message!</h3>
 				<form method="post" name="contact_form" action="contact-form-handler.php">
 					<p>First Name:</p>
@@ -167,6 +156,7 @@ Tyler Huxtable
 					<input type="text" name="email" maxlength="50">
 					<p>Message</p>
 					<textarea id="messageinput" type="text" name="message"></textarea>
+					<br/>
 					<input id="formsend" type="submit" value="Send">
 				 </form>
 				
