@@ -77,7 +77,7 @@ pre {
 }
 
 .halfcontent {
-	display: inline;
+	display: inline-block;
 	float: left;
 	width: 50%;
 	text-align: left;
@@ -267,12 +267,6 @@ nav a:hover {
 
 #contactcontainer {
 	text-align: center;
-	padding-right: 20px;
-	
-	box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	border: 1px solid red;
 }
 
 #contactcontainer ul {
@@ -295,11 +289,6 @@ nav a:hover {
 }
 
 #contactform {
-	padding-left: 20px;
-	box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	border: 1px solid blue;
 }
 
 #contactform h3{
@@ -307,7 +296,7 @@ nav a:hover {
 }
 
 #messageinput {
-	min-width: 400px;
+	min-width: 380px;
 	height: 150px;
 }
 
