@@ -144,14 +144,13 @@ nav a:hover {
 /* Intro */
 
 .intro {
-	margin: 50px;
+	margin: 40px;
 	font-weight: 300;
 }
 
 #introimg {
-	max-width: 1024px;
+	max-width: 900px;
 	position: relative;
-	margin-top: 100px;
 	min-width: 600px;
 }
 
@@ -174,7 +173,7 @@ nav a:hover {
 /* About */
 
 #portrait {
-	height: 400px;
+	height: 300px;
 	
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -235,15 +234,15 @@ nav a:hover {
 }
 
 #fblogo img:hover {
-	background: #4747CC;
+	background: #3B5998 ;
 }
 
 #inlogo img:hover {
-	background: #335C85;
+	background: #4875B4;
 }
 
 #instalogo img:hover {
-	background: #B56C47;
+	background: white;
 }
 
 #twitter {
@@ -275,7 +274,6 @@ nav a:hover {
 
 #contactcontainer img {
 	max-width: 150px;
-	-webkit-filter: invert(100%);
 }
 
 .contacttitle {

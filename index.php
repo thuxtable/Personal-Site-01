@@ -47,7 +47,7 @@ Tyler Huxtable
 	</nav>
 
 	<div class="intro" id="downarrow">
-		<a href="#about"><img src="images/down-arrow-icon.png" /></a>
+		<a href="#about"><img src="images/downarrow.png" /></a>
 	</div>
 
 	<div class="page" id="top">
@@ -111,17 +111,17 @@ Tyler Huxtable
 		<div class="pagecontent">
 			<div>
 				<div class="iconcontainer">
-					<a id="fblogo" href="https://www.facebook.com/tyler.huxtable"><img src="images/fb_icon.png" /></a>
+					<a id="fblogo" href="https://www.facebook.com/tyler.huxtable"><img src="images/facebook.png" /></a>
 				</div>
 				<div class="iconcontainer">
-					<a id="inlogo" href="https://www.linkedin.com/pub/tyler-huxtable/69/413/aa1"><img src="images/in_icon.png" /></a>
+					<a id="inlogo" href="https://www.linkedin.com/pub/tyler-huxtable/69/413/aa1"><img src="images/linkedin.png" /></a>
 				</div>
 				<div class="iconcontainer">
-					<a id="instalogo" href="http://instagram.com/awshux_thux"><img src="images/insta_icon.png" /></a>
+					<a id="instalogo" href=""><img src="images/github.png" /></a>
 				</div>
 			</div>
 			<div id="twitter">
-				<h3>Twitter</h3>
+				<h3><img src="images/twitter.png" />Twitter<img src="images/twitter.png" /></h3>
 				<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/tyler_huxtable" data-widget-id="510840783432216576">Tweets by @tyler_huxtable</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</div>
@@ -137,10 +137,10 @@ Tyler Huxtable
 		<div class="pagecontent" id="contactwrapper">
 			<div class="halfcontent" id="contactcontainer">
 				<ul>
-					<li><img src="images/mail-icon.png" />
+					<li><img src="images/email-white.png" />
 					<li class="contacttitle">email</li>
 					<li class="contactbody">tyler.huxtable[at]gmail.com</li>
-					<li><img src="images/phone-icon.png" />
+					<li><img src="images/telephone-white.png" />
 					<li class="contacttitle">tel</li>
 					<li class="contactbody">253.334.3119</i>
 				</ul>
