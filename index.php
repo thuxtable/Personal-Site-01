@@ -117,9 +117,10 @@ Tyler Huxtable
 					<a id="inlogo" href="https://www.linkedin.com/pub/tyler-huxtable/69/413/aa1"><img src="images/linkedin.png" /></a>
 				</div>
 				<div class="iconcontainer">
-					<a id="instalogo" href=""><img src="images/github.png" /></a>
+					<a id="gitlogo" href=""><img src="images/github.png" /></a>
 				</div>
 			</div>
+			<span id="icontitles"><p>Facebook</p><p>LinkedIn</p><p>GitHub</p></span>
 			<div id="twitter">
 				<h3><img src="images/twitter.png" />Twitter<img src="images/twitter.png" /></h3>
 				<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/tyler_huxtable" data-widget-id="510840783432216576">Tweets by @tyler_huxtable</a>
