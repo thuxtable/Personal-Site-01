@@ -1,16 +1,12 @@
-To-dos for 10/20/14:
-
-O Create better signature png for title page
-
-O Finish new favicon and add
+To-dos for 10/24/14:
 
 O Get new portrait photo
 
-O Put quotes in aside sections so other text wraps around them
+O Get new quote for About or Social Media
 
-O Get form working
+O Update About section **Top Priority**
 
-	http://www.html-form-guide.com/contact-form/php-email-contact-form.html
-	http://www.html-form-guide.com/contact-form/simple-php-contact-form.html
+O For Lite version:
 
-O Draw all icons
+	- Instead of message sent page, use JS to show thank you message inside message form div
+	- JS effect for variable height/width divs on scroll

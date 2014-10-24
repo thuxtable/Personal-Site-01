@@ -1,14 +1,16 @@
 <?php 
 $errors = '';
-$myemail = 'yourname@website.com';//<-----Put Your email address here.
-if(empty($_POST['name'])  || 
+$myemail = 'tyler.huxtable@gmail.com';//<-----Put Your email address here.
+if(empty($_POST['firstname'])  || 
+   empty($_POST['lastname'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
 {
-    $errors .= "\n Error: all fields are required";
+    $errors .= "\n Error: All fields are required.";
 }
 
-$name = $_POST['name']; 
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname']; 
 $email_address = $_POST['email']; 
 $message = $_POST['message']; 
 
@@ -16,15 +18,15 @@ if (!preg_match(
 "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
 $email_address))
 {
-    $errors .= "\n Error: Invalid email address";
+    $errors .= "\n Error: Invalid email address.";
 }
 
 if( empty($errors))
 {
 	$to = $myemail; 
 	$email_subject = "Contact form submission: $name";
-	$email_body = "You have received a new message. ".
-	" Here are the details:\n Name: $name \n Email: $email_address \n Message \n $message"; 
+	$email_body = "You have received a new message.".
+	" Here are the details:\n Name: $firstname $lastname \n Email: $email_address \n Message \n $message"; 
 	
 	$headers = "From: $myemail\n"; 
 	$headers .= "Reply-To: $email_address";
@@ -37,7 +39,7 @@ if( empty($errors))
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
 <html>
 <head>
-	<title>Contact form handler</title>
+	<title>Whoops! Error sending message.</title>
 </head>
 
 <body>

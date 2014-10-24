@@ -152,21 +152,25 @@ Tyler Huxtable
 			</div>
 			<div class="halfcontent" id="contactform">
 				<h3>Send me a message!</h3>
-				<form method="post" name="contact_form" action="contact-form-handler.php">
-					<p>First Name:</p>
-					<input type="text" name="firstname">
-					<p>Last Name</p>
-					<input type="text" name="lastname">
+				<form method="post" id="contact_form" name="contact_form" action="contact-form-handler.php">
+					<span>
+						<p>First Name</p>
+						<input type="text" name="firstname">
+					</span>
+					<span>
+						<p>Last Name</p>
+						<input type="text" name="lastname">
+					</span>
 					<p>Email</p>
-					<input type="text" name="email" maxlength="50">
+					<input id="formemail" type="text" name="email" maxlength="60">
 					<p>Message</p>
-					<textarea id="messageinput" type="text" name="message"></textarea>
+					<textarea id="formmessage" type="text" name="message"></textarea>
 					<br/>
 					<input id="formsend" type="submit" value="Send">
 				 </form>
 				
 				<script language="JavaScript">
-					var frmvalidator  = new Validator("contactform");
+					var frmvalidator  = new Validator("contact_form");
 					frmvalidator.addValidation("firstname","req","Please provide your first name");
 					frmvalidator.addValidation("lastname","req","Please provide your last name");
 					frmvalidator.addValidation("email","req","Please provide your email");
@@ -185,8 +189,8 @@ Tyler Huxtable
 	</div>
 
 <script>
-
-	$("nav").hide();
+	
+	/* FadeIn effects for intro page */
 	
 	$(".intro").hide();
 	var fadeInterval = 1200;
@@ -197,6 +201,10 @@ Tyler Huxtable
 	$("#intro3").delay(fadeDelay + 3*fadeInterval).fadeIn(fadeInterval);
 	$("#downarrow").delay(fadeDelay + 4*fadeInterval).fadeIn(fadeInterval);
 	
+	/* Scroll effects for Nav */
+	
+	$("nav").hide();
+	
 	$(window).scroll(function() {
 		if ($(this).scrollTop()> 0)
 		{ $('#downarrow').fadeOut(700); }
@@ -206,6 +214,8 @@ Tyler Huxtable
 		else
 		{ $("nav").fadeOut(500); }
 	});
+	
+	/* Scroll smoothing */
 	
 	$(function() {
 		$('a[href*=#]:not([href=#])').click(function() {

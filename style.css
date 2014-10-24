@@ -59,6 +59,7 @@ pre {
 	width: 100%;
 	float: left;
 	position: relative;
+	padding-top: 75px;
 }
 
 .page:before,
@@ -94,6 +95,7 @@ pre {
 
 #uclamap {
 	height: 45%;
+	padding: 0;
 }
 
 #social {
@@ -102,6 +104,7 @@ pre {
 
 #banner {
 	height: 45%;
+	padding: 0;
 }
 
 #banner img {
@@ -118,6 +121,7 @@ pre {
 	color: #CCCCCC;
 	background: black;
 	font-size: 75%;
+	padding: 0;
 }
 
 /* Nav */
@@ -297,6 +301,8 @@ nav a:hover {
 
 #contactcontainer {
 	text-align: center;
+	padding-right: 60px;
+	box-sizing: border-box;
 }
 
 #contactcontainer ul {
@@ -318,15 +324,22 @@ nav a:hover {
 }
 
 #contactform {
+	padding-left: 60px;
+	box-sizing: border-box;
 }
 
-#contactform h3{
-	text-align: center;
+#contactform span{
+	display: inline-block;
+	margin-right: 40px;
 }
 
-#messageinput {
-	min-width: 380px;
-	height: 150px;
+#formemail {
+	width: 325px;
+}
+
+#formmessage {
+	min-width: 325px;
+	height: 200px;
 }
 
 input[type=submit] {
@@ -340,7 +353,7 @@ input[type=submit] {
 	background: #EE6363;
 	font: inherit;
 	color: white;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 	box-shadow: 2px 2px 2px black;
 	-o-transition:.5s;
