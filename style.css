@@ -89,7 +89,7 @@ pre {
 }
 
 #about {
-	background: #A8A8A8 ;
+	background: #A8A8A8;
 }
 
 #uclamap {
@@ -234,15 +234,18 @@ nav a:hover {
 }
 
 #fblogo img:hover {
-	background: #3B5998 ;
+	background: #3B5998;
+	box-shadow: 2px 2px 2px black;
 }
 
 #inlogo img:hover {
 	background: #4875B4;
+	box-shadow: 2px 2px 2px black;
 }
 
 #gitlogo img:hover {
 	background: white;
+	box-shadow: 2px 2px 2px black;
 }
 
 #icontitles p {
@@ -256,6 +259,28 @@ nav a:hover {
 	min-height: 700px;
 	text-align: center;
 	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top: 2px groove #A8A8A8;
+}
+
+#twitter h3{
+	height: 100px;
+	margin-top: 25px;
+}
+
+#twitter span{
+	line-height: 150px;
+	vertical-align: top;
+}
+
+#twitter2 {
+	    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
 
 .twitter-timeline

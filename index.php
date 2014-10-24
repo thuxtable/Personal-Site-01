@@ -111,18 +111,22 @@ Tyler Huxtable
 		<div class="pagecontent">
 			<div>
 				<div class="iconcontainer">
-					<a id="fblogo" href="https://www.facebook.com/tyler.huxtable"><img src="images/facebook.png" /></a>
+					<a id="fblogo" href="https://www.facebook.com/tyler.huxtable" target="_blank"><img src="images/facebook.png" /></a>
 				</div>
 				<div class="iconcontainer">
-					<a id="inlogo" href="https://www.linkedin.com/pub/tyler-huxtable/69/413/aa1"><img src="images/linkedin.png" /></a>
+					<a id="inlogo" href="https://www.linkedin.com/pub/tyler-huxtable/69/413/aa1" target="_blank"><img src="images/linkedin.png" /></a>
 				</div>
 				<div class="iconcontainer">
-					<a id="gitlogo" href=""><img src="images/github.png" /></a>
+					<a id="gitlogo" href="https://github.com/thuxtable" target="_blank"><img src="images/github.png" /></a>
 				</div>
 			</div>
 			<span id="icontitles"><p>Facebook</p><p>LinkedIn</p><p>GitHub</p></span>
 			<div id="twitter">
-				<h3><img src="images/twitter.png" />Twitter<img src="images/twitter.png" /></h3>
+				<h3>
+					<img src="images/twitter.png" />
+					<span>Twitter</span>
+					<img id="twitter2" src="images/twitter.png" />
+				</h3>
 				<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/tyler_huxtable" data-widget-id="510840783432216576">Tweets by @tyler_huxtable</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</div>
