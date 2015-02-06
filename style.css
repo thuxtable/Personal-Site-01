@@ -370,3 +370,15 @@ input[type=submit] {
 #formsend:hover {
 	background: #F08080;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 320px) {
+	.pagecontent {
+		max-width: 320px;
+	}
+	
+	#introimg {
+		max-width: 320px;
+	}
+}
