@@ -61,43 +61,55 @@ Tyler Huxtable
 
 	<div class="page" id="about">
 		<h1>About</h1>
-		<h2>Welcome! Bienvenue! Halló! 歡迎光臨! Willkommen! Nnộ! أهلاً و سهلاً! Vítáme vás! Bienvenido! ยินดีต้อนรับ!</h2>
+		<h2>Welcome! Bienvenue! Halló! 欢迎! Willkommen! Nnộ! أهلاً و سهلاً! Vítáme vás! Bienvenido! ยินดีต้อนรับ!</h2>
 		<div class="pagecontent">
-			<div class="halfcontent" id="portrait">
-				<img src="images/portrait.jpg" />
-			</div>
-			<div class="halfcontent" id="aboutbrief">
-				<h3>Tyler Huxtable</h3>
-				<ul>
-					<li> Seattle-born</li>
-						<ul>
-							<li>Rain-lover</li>
-							<li>Literary name-dropper</li>
-						</ul>
-					<li>UCLA | Class of 2013</li>
-						<ul>
-							<li>English BA</li>
-							<li>Linguistics BA</li>
-								<ul>
-									<li>Specialization in Computing</li>
-								</ul>
-						</ul>
-				</ul>
+			<div id="aboutbanner">
+				<div class="halfcontent" id="portrait">
+					<img src="images/portrait.jpg" />
+				</div>
+				<div class="halfcontent" id="aboutbrief">
+					<h3>an overview</h3>
+					<ul>
+						<li> Seattle-born</li>
+							<ul>
+								<li>Rain-lover</li>
+								<li>Caffeine-sipper</li>
+								<li>Literary name-dropper</li>
+							</ul>
+						<li>UCLA | Class of 2013</li>
+							<ul>
+								<li>English BA</li>
+								<li>Linguistics BA</li>
+									<ul>
+										<li>Specialization in Computing</li>
+									</ul>
+								<li>Bruin Born, Bruin Bred</li>
+							</ul>
+					</ul>
+				</div>
 			</div>
 			<div id="abouttext">
-				<p>Welcome! P1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-					<div class="quote">
+				<p>Hey, listen! Thanks for visiting my humble site, and don't click away just yet! Look, I know you have better things to be doing, like catching up on OITNB (loving the show acronyms these days) or getting your money's worth out of a Crossfit membership, but I swear this'll be worth a few seconds of your day. And now, since I've (hopefully) lured you in with my wit, let me give you the briefest introduction of myself that I'm probably able to give.
+				<div class="quote">
 						<p>
-							"Words can be like X-rays, if you use them properly–they'll go through anything. You read and you're pierced."
+							"You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.”
 						</p>
-						<p><em>Brave New World</em>, Aldous Huxley</p>
+						<p><em>The Lord of the Rings</em>, J.R.R. Tolkien</p>
 					</div>
 				</p>
-				<p>P2 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				<p> As the astute reader will have surmised from above, I am a passionate Seattleite, and I'll talk your ear off about it if you're not careful.
+				I find lists to be more efficient in conveying my favorite things about the City, and I hope this one does the trick: 
+				drippy forests, the San Juan Islands, fish markets, gum walls, chicken bakes, Emerald Downs, clam digs, the Muckleshoot, airplane fields, red lion boats, Mount Rainier, the Puyallup Fair, listening to out-of-towners pronounce "the Puyallup Fair," 
+				and the <em>ad nauseum</em> fantasies of drinking-coffee-in-the-rain-while-biking-to-work-at-Microsoft-in-an-REI-coat-yada-yada.  If it weren't for my love of UCLA and other such gems of the Los Angeles area, I'm afraid my heart would be forever stuck in that misty Emerald City.
 				</p>
-				<p>P3 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				<p>Though I was deposited at UCLA at the tender age of 18 under the pretence of studying engineering, I found myself suddenly whisked away into the unknown world of linguistics, as well as into the classrooms of one of my long-time favorite subjects--literature.
+				I am fascinated by linguistic phenomena of all sorts, though most importantly syntax, computational linguistics, and natural language processing.
+				My current literary fascinations lie in contemporary Postcolonial and environmental literatures, and in much more ancient Anglo-Saxon texts.
+				While completing my degrees I also acquired a fair amount of techinical and coding prowess, which I am keen to exercise where I can (e.g. this very website).
 				</p>
-				<p>P4 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				<p> If you're curious about any of my interests, work, or areas of expertise, please don't hesitate to use the contact methods posted conveniently at the bottom of this site! I'm always looking to collaborate on new projects and ventures.
+				</p>
+				<p> P.S. 10 points for Gryffindor if you noticed three Hyrulian references in all this jabber.<br>(Small hint: they glow green if you run your cursor over them.)
 				</p>
 			</div>
 		</div>
@@ -107,7 +119,7 @@ Tyler Huxtable
 
 	<div class="page" id="social">
 		<h1>Social Media</h1>
-		<h2>"Words can be like X-rays, if you use them properly–they'll go through anything. You read and you're pierced." -Aldous Huxley, Brave New World</h2>
+		<h2>"Words can be like X-rays, if you use them properly–they'll go through anything. You read and you're pierced." <em>Brave New World</em>, Aldous Huxley</h2>
 		<div class="pagecontent">
 			<div>
 				<div class="iconcontainer">
@@ -138,7 +150,7 @@ Tyler Huxtable
 	
 	<div class="page" id="contact">
 		<h1>Contact</h1>
-		<h2>"Don't be shy!"</h2>
+		<h2>Don't be shy!</h2>
 		<div class="pagecontent" id="contactwrapper">
 			<div class="halfcontent" id="contactcontainer">
 				<ul>
@@ -151,7 +163,7 @@ Tyler Huxtable
 				</ul>
 			</div>
 			<div class="halfcontent" id="contactform">
-				<h3>Send me a message!</h3>
+				<h3>send a message</h3>
 				<form method="post" id="contact_form" name="contact_form" action="contact-form-handler.php">
 					<span>
 						<p>First Name</p>
@@ -184,7 +196,7 @@ Tyler Huxtable
 
 	<div class="page" id="footer">
 		<p>
-			Copyright &copy; 2014 <a href="mailto:admin@tylerhuxtable.com">Tyler Huxtable</a>
+			Copyright &copy; 2015 <a href="mailto:admin@tylerhuxtable.com">Tyler Huxtable</a>
 		</p>
 	</div>
 
