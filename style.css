@@ -207,7 +207,7 @@ nav a:hover {
 	text-align: left;
 }
 
-#abouttext span:hover {
+.hint:hover {
 	color: green;
 }
 
