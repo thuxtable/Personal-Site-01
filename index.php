@@ -19,10 +19,16 @@ Tyler Huxtable
 
 <!DOCTYPE html>
 
+<?php
+	header("Expires: Mon, 26 Jul 2027 05:00:00 GMT");
+	header("Cache-Control: max-age=86400, must-revalidate");
+?>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8" /> 
+	<meta name=viewport content="width=device-width, initial-scale=1">
     <title>Tyler Huxtable</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,900,700,700italic,900italic,300italic,100italic,100' rel='stylesheet' type='text/css'>
