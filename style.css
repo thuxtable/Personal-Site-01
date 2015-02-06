@@ -206,6 +206,10 @@ nav a:hover {
 	text-align: left;
 }
 
+#abouttext span:hover {
+	color: green;
+}
+
 .quote {
 	float: right;
 	width: 40%;

@@ -36,6 +36,7 @@ if( empty($errors))
 	header('Location: contact-form-thank-you.html');
 } 
 ?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
 <html>
 <head>
@@ -44,10 +45,12 @@ if( empty($errors))
 
 <body>
 <!-- This page is displayed only if there is some error -->
+
 <?php
 echo nl2br($errors);
 ?>
 
+<a style="color:black; font-size: 0.8em;" href="index.php#contact"><h3>Back</h3></a>
 
 </body>
 </html>

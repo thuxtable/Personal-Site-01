@@ -89,7 +89,7 @@ Tyler Huxtable
 				</div>
 			</div>
 			<div id="abouttext">
-				<p>Hey, listen! Thanks for visiting my humble site, and don't click away just yet! Look, I know you have better things to be doing, like catching up on OITNB (loving the show acronyms these days) or getting your money's worth out of a Crossfit membership, but I swear this'll be worth a few seconds of your day. And now, since I've (hopefully) lured you in with my wit, let me give you the briefest introduction of myself that I'm probably able to give.
+				<p><span>Hey, listen!</span> Thanks for visiting my humble site, and don't click away just yet! Look, I know you have better things to be doing, like catching up on OITNB (loving the show acronyms these days) or getting your money's worth out of a Crossfit membership, but I swear this'll be worth a few seconds of your day. And now, since I've (hopefully) lured you in with my wit, let me give you the briefest introduction of myself that I'm probably able to give.
 				<div class="quote">
 						<p>
 							"You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.”
@@ -99,12 +99,12 @@ Tyler Huxtable
 				</p>
 				<p> As the astute reader will have surmised from above, I am a passionate Seattleite, and I'll talk your ear off about it if you're not careful.
 				I find lists to be more efficient in conveying my favorite things about the City, and I hope this one does the trick: 
-				drippy forests, the San Juan Islands, fish markets, gum walls, chicken bakes, Emerald Downs, clam digs, the Muckleshoot, airplane fields, red lion boats, Mount Rainier, the Puyallup Fair, listening to out-of-towners pronounce "the Puyallup Fair," 
+				drippy forests, the San Juan Islands, fish markets, gum walls, chicken bakes, Emerald Downs, clam digs, the Muckleshoot, airplane fields, <span>red lion boats</span>, Mount Rainier, the Puyallup Fair, listening to out-of-towners pronounce "the Puyallup Fair," 
 				and the <em>ad nauseum</em> fantasies of drinking-coffee-in-the-rain-while-biking-to-work-at-Microsoft-in-an-REI-coat-yada-yada.  If it weren't for my love of UCLA and other such gems of the Los Angeles area, I'm afraid my heart would be forever stuck in that misty Emerald City.
 				</p>
 				<p>Though I was deposited at UCLA at the tender age of 18 under the pretence of studying engineering, I found myself suddenly whisked away into the unknown world of linguistics, as well as into the classrooms of one of my long-time favorite subjects--literature.
 				I am fascinated by linguistic phenomena of all sorts, though most importantly syntax, computational linguistics, and natural language processing.
-				My current literary fascinations lie in contemporary Postcolonial and environmental literatures, and in much more ancient Anglo-Saxon texts.
+				My current literary fascinations lie in contemporary Postcolonial and environmental literatures, though I've always had an inner <span>compass</span> steering me towards much more ancient Anglo-Saxon texts.
 				While completing my degrees I also acquired a fair amount of techinical and coding prowess, which I am keen to exercise where I can (e.g. this very website).
 				</p>
 				<p> If you're curious about any of my interests, work, or areas of expertise, please don't hesitate to use the contact methods posted conveniently at the bottom of this site! I'm always looking to collaborate on new projects and ventures.
