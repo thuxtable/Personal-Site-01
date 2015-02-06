@@ -146,7 +146,7 @@ Tyler Huxtable
 		</div>
 	</div>
 
-	<div class="page" id="banner"><img src="images/banner.jpg" /></div>
+	<div class="page" id="banner"><img src="images/banner.jpeg" /></div>
 	
 	<div class="page" id="contact">
 		<h1>Contact</h1>
