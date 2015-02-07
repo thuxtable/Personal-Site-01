@@ -27,9 +27,13 @@ Tyler Huxtable
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" /> 
-	<meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Tyler Huxtable</title>
+    <meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A little splash of imagination and humor.">
+	<meta name="keywords" content="tyler, huxtable, UCLA, Seattle, personal website">
+	<meta name="author" content="Tyler Huxtable">
+	<meta name="robots" content="index, follow" >
+    <title>Tyler Huxtable | a small synopsis</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,900,700,700italic,900italic,300italic,100italic,100' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="http://www.tylerhuxtable.com/favicon.png" type="image/icon">
@@ -38,7 +42,6 @@ Tyler Huxtable
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIpKm8ZgCG9G7Ifsj44vba3bfBZwxnVzQ"></script>
 	<script type="text/javascript" src="map_api.js" />
 	<script src="gen_validatorv4.js" type="text/javascript"></script>
-</head>
 </head>
 
 <body>
