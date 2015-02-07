@@ -19,11 +19,6 @@ Tyler Huxtable
 
 <!DOCTYPE html>
 
-<?php
-	header("Expires: Mon, 26 Jul 2027 05:00:00 GMT");
-	header("Cache-Control: max-age=86400, must-revalidate");
-?>
-
 <html lang="en">
 
 <head>
@@ -38,10 +33,11 @@ Tyler Huxtable
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,900,700,700italic,900italic,300italic,100italic,100' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="http://www.tylerhuxtable.com/favicon.png" type="image/icon">
     <link rel="icon" href="http://www.tylerhuxtable.com/favicon.png" type="image/icon">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
+	<script async src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIpKm8ZgCG9G7Ifsj44vba3bfBZwxnVzQ"></script>
 	<script type="text/javascript" src="map_api.js" />
-	<script src="gen_validatorv4.js" type="text/javascript"></script>
+	<script async src="gen_validatorv4.js" type="text/javascript"></script>
+	
 </head>
 
 <body>
@@ -209,51 +205,53 @@ Tyler Huxtable
 		</p>
 	</div>
 
-<script>
-	
-	/* FadeIn effects for intro page */
-	
-	$(".intro").hide();
-	var fadeInterval = 1200;
-	var fadeDelay = 700;
-	$("#introimg").delay(fadeDelay).fadeIn(fadeInterval);
-	$("#intro1").delay(fadeDelay + fadeInterval).fadeIn(fadeInterval);
-	$("#intro2").delay(fadeDelay + 2*fadeInterval).fadeIn(fadeInterval);
-	$("#intro3").delay(fadeDelay + 3*fadeInterval).fadeIn(fadeInterval);
-	$("#downarrow").delay(fadeDelay + 4*fadeInterval).fadeIn(fadeInterval);
-	
-	/* Scroll effects for Nav */
-	
-	$("nav").hide();
-	
-	$(window).scroll(function() {
-		if ($(this).scrollTop()> 0)
-		{ $('#downarrow').fadeOut(700); }
+	<script type="text/javascript">
 		
-		if ($(this).scrollTop()> 800)
-		{ $("nav").fadeIn(500); }
-		else
-		{ $("nav").fadeOut(500); }
-	});
-	
-	/* Scroll smoothing */
-	
-	$(function() {
-		$('a[href*=#]:not([href=#])').click(function() {
-			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-			  var target = $(this.hash);
-			  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			  if (target.length) {
-				$('html,body').animate({
-				  scrollTop: target.offset().top
-				}, 800);
-				return false;
-			  }
-			}
+		$(function() {
+			/* FadeIn effects for intro page */
+			
+			$(".intro").hide();
+			var fadeInterval = 1200;
+			var fadeDelay = 700;
+			$("#introimg").delay(fadeDelay).fadeIn(fadeInterval);
+			$("#intro1").delay(fadeDelay + fadeInterval).fadeIn(fadeInterval);
+			$("#intro2").delay(fadeDelay + 2*fadeInterval).fadeIn(fadeInterval);
+			$("#intro3").delay(fadeDelay + 3*fadeInterval).fadeIn(fadeInterval);
+			$("#downarrow").delay(fadeDelay + 4*fadeInterval).fadeIn(fadeInterval);
+			
+			/* Scroll effects for Nav */
+			
+			$("nav").hide();
+			
+			$(window).scroll(function() {
+				if ($(this).scrollTop()> 0)
+				{ $('#downarrow').fadeOut(700); }
+				
+				if ($(this).scrollTop()> 800)
+				{ $("nav").fadeIn(500); }
+				else
+				{ $("nav").fadeOut(500); }
+			});
+			
+			/* Scroll smoothing */
+			
+			$(function() {
+				$('a[href*=#]:not([href=#])').click(function() {
+					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+					  var target = $(this.hash);
+					  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					  if (target.length) {
+						$('html,body').animate({
+						  scrollTop: target.offset().top
+						}, 800);
+						return false;
+					  }
+					}
+				});
+			});
 		});
-	});
-	
-</script>
+		
+	</script>
 	
 </body>
 </html>
